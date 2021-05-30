@@ -14,7 +14,7 @@ Minico is a CLI tool to give minimal access for containers.
 
 # Install
 
-`go install github.com/g1eng/minico`
+`go get github.com/g1eng/minico`
 
 # Usage
 
