@@ -4,6 +4,7 @@ jobs:
     working_directory: ~/repo
     docker:
       - image: circleci/golang:1.16-buster
+    resource_class: small
     steps:
       - checkout
       - restore_cache:
