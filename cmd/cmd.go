@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/g1eng/minico/cmd/subcommands"
+	"github.com/g1eng/minico/v2/cmd/subcommands"
 	"github.com/urfave/cli/v2"
 	"os"
 )

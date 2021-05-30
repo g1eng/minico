@@ -1,7 +1,7 @@
 package subcommand
 
 import (
-	"github.com/g1eng/minico/functions"
+	"github.com/g1eng/minico/v2/functions"
 	"github.com/urfave/cli/v2"
 )
 

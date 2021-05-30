@@ -2,7 +2,7 @@ package functions
 
 import (
 	"fmt"
-	"github.com/g1eng/minico/functions/docker"
+	"github.com/g1eng/minico/v2/functions/docker"
 	"github.com/urfave/cli/v2"
 )
 
