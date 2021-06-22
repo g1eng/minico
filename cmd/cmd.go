@@ -1,9 +1,10 @@
 package cmd
 
 import (
-	"github.com/g1eng/minico/v2/cmd/subcommands"
-	"github.com/urfave/cli/v2"
 	"os"
+
+	"github.com/g1eng/minico/cmd/subcommand"
+	"github.com/urfave/cli/v2"
 )
 
 func Cmd() error {

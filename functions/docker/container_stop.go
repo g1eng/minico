@@ -2,9 +2,10 @@ package docker
 
 import (
 	"context"
+	"strings"
+
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
-	"strings"
 )
 
 func (p *Provider) ContainerStop(conNameFilter string) error {

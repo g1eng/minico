@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/g1eng/minico/v2/cmd"
 	"log"
+
+	"github.com/g1eng/minico/cmd"
 )
 
 func main() {

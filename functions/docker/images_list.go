@@ -4,9 +4,10 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"strings"
+
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
-	"strings"
 )
 
 func (p *Provider) ImageList(withIds bool, nameFilter string) error {

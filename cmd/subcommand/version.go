@@ -2,8 +2,9 @@ package subcommand
 
 import (
 	"fmt"
-	"github.com/urfave/cli/v2"
 	"strings"
+
+	"github.com/urfave/cli/v2"
 )
 
 var Version = &cli.Command{

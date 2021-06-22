@@ -4,9 +4,10 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"strings"
+
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
-	"strings"
 )
 
 // ContainerListFunc is the function type which is used in recursive actions

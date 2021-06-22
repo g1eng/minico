@@ -1,6 +1,6 @@
 package cmd
 
-import "github.com/g1eng/minico/v2/functions"
+import "github.com/g1eng/minico/functions"
 
 type Minico struct {
 	user      string

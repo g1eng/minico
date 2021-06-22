@@ -1,9 +1,10 @@
 package docker
 
 import (
+	"testing"
+
 	"github.com/docker/docker/api/types"
 	. "gopkg.in/check.v1"
-	"testing"
 )
 
 func init() {

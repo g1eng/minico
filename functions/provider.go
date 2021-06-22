@@ -1,15 +1,6 @@
 package functions
 
-import (
-	"fmt"
-	"github.com/g1eng/minico/v2/functions/docker"
-	"github.com/urfave/cli/v2"
-)
-
-// Unimplemented simply returns error for unimplemented features.
-func Unimplemented(_ *cli.Context) error {
-	return fmt.Errorf("This function is not implemented.\n")
-}
+import "github.com/g1eng/minico/functions/docker"
 
 // Provider is the interface for various container runtimes that
 // is different in their APIs and designs.
